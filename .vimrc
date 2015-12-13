@@ -1,4 +1,5 @@
 colorscheme sugicolor
+set number
 
 if has('vim_starting')
 	" Specify the directory to be managed by bundle
