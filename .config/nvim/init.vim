@@ -10,14 +10,11 @@ let $CONFIG = empty($XDG_CONFIG_HOME) ? expand('$HOME/.config') : $XDG_CONFIG_HO
 let $DATA = empty($XDG_DATA_HOME) ? expand('$HOME/.local/share') : $XDG_DATA_HOME
 
 
-
-
 " -- dein --
 " directory installed dein plugin
 let s:dein_dir = expand('$CACHE/dein')
 " dein.vim
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
-
 " If dein.vim is not existed, download it from github.
 if &runtimepath !~# '/dein.vim'
     if !isdirectory(s:dein_repo_dir)
@@ -45,6 +42,10 @@ if dein#check_install()
 endif
 
 
+" -- airline --
+" let g:airline_powerline_fonts = 1
+" let g:airline_theme = 'badwolf'
+" let g:airline#extensions#tabline#enabled = 1
 
 
 " [opt] runtimepath  : This is a list of directories which will be searched for runtime files.
