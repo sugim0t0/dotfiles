@@ -7,3 +7,8 @@ repo = 'Shougo/denite.nvim'
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = '''
+source ~/.config/nvim/plugins/nerdtree.rc.vim
+'''

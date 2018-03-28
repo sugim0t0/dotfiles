@@ -113,3 +113,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 # NuSMV
 export PATH="$HOME/bin/NuSMV-2.6.0-Linux/bin:$PATH"
+
+# neovim
+alias vi='nvim'
+
