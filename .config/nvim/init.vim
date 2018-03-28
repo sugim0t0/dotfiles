@@ -94,6 +94,7 @@ set nowritebackup
 set nobackup
 set noswapfile
 
+set encoding=UTF-8
 
 " -- Options for cursor movement
 " [opt] scrolloff    : Minimal number of screen lines to keep above and below the cursor.
