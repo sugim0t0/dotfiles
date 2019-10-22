@@ -87,6 +87,7 @@ set backspace=indent,eol,start
 
 set expandtab
 set tabstop=4
+set shiftwidth=4
 set autoindent
 set smartindent
 
@@ -108,5 +109,9 @@ set hlsearch
 set incsearch
 
 syntax on
+
+" SyntaxInfo command (for colorscheme create)
+" runtime! plugins/syntaxinfo.vim
 colorscheme sugicolor
+
 
