@@ -97,6 +97,10 @@ set noswapfile
 
 set encoding=UTF-8
 
+" -- Options for mouse
+set mouse=a
+set ttymouse=xterm2
+
 " -- Options for cursor movement
 " [opt] scrolloff    : Minimal number of screen lines to keep above and below the cursor.
 set scrolloff=8
