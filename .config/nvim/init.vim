@@ -99,7 +99,10 @@ set encoding=UTF-8
 
 " -- Options for mouse
 set mouse=a
-set ttymouse=xterm2
+if !has('nvim')
+    " this option is deleted in NeoVim
+    set ttymouse=xterm2
+endif
 
 " -- Options for cursor movement
 " [opt] scrolloff    : Minimal number of screen lines to keep above and below the cursor.
