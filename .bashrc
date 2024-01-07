@@ -117,3 +117,10 @@ export PATH="$HOME/bin/NuSMV-2.6.0-Linux/bin:$PATH"
 # neovim
 alias vi='nvim'
 
+# texlive
+export PATH="/usr/local/texlive/2022/bin/x86_64-linux:$PATH"
+export MANPATH="$MANPATH:/usr/local/texlive/2022/texmf-dist/doc/man"
+export INFOPATH="$INFOPATH:/usr/local/texlive/2022/texmf-dist/doc/info"
+
+# tree
+alias tree="tree --charset unicode"
