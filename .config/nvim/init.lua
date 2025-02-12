@@ -24,6 +24,7 @@ vim.opt.smartindent   = true
 vim.opt.scrolloff     = 8
 vim.opt.hlsearch      = true
 vim.opt.incsearch     = true
+vim.opt.clipboard:append({“unnamedplus“})
 
 vim.scriptencoding    = 'utf-8'
 
