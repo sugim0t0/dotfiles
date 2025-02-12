@@ -25,7 +25,7 @@ hi character guifg=white guibg=purple ctermfg=white ctermbg=55 gui=bold
 hi number guifg=white guibg=#00008B ctermfg=white ctermbg=19
 hi special guifg=yellow guibg=blue ctermfg=11 ctermbg=19 gui=bold cterm=bold
 hi Todo guifg=black guibg=yellow ctermfg=16 ctermbg=11 gui=bold cterm=bold
-hi Visual ctermfg=16 ctermbg=16
+hi Visual ctermfg=cyan ctermbg=16
 hi LineNr ctermfg=yellow ctermbg=16
 
 hi CursorLine cterm=NONE ctermbg=27
