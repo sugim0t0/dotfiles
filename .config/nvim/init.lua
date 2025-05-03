@@ -1,4 +1,10 @@
+-- init.lua
+-- Core settings
+-- Maintainer:  Shun SUGIMOTO
+-- Last Change: 2025 May 03
+-- Revision:    2
 
+-- RTP (Run Time Path)
 vim.api.nvim_command('set runtimepath^=$(pwd)')
 
 -- Mapleader <leader>
@@ -34,12 +40,11 @@ vim.api.nvim_set_keymap('n', 'k', 'gk', { noremap = true })
 vim.api.nvim_set_keymap('n', 'gj', 'j', { noremap = true })
 vim.api.nvim_set_keymap('n', 'gk', 'k', { noremap = true })
 
--- Autocmd
-vim.api.nvim_create_autocmd({"BufRead"}, { pattern = {"*.rs"}, command = "setlocal tags=./rusty-tags.vi;/",})
-vim.api.nvim_create_autocmd({"BufWritePost"}, { pattern = {"*.rs"}, command = "silent! exec \"!rusty-tags vi --quiet --start-dir=\" . expand('%:p:h') . \"&\" | redraw!",})
-
 -- Color
 vim.cmd[[colorscheme sugicolor]]
 
-require('plugins')
-require('nvim_tree')
+-- Advanced settings
+require("rust")
+
+-- Plugins
+require("plugin")

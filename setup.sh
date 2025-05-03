@@ -18,9 +18,6 @@ if [ $? -eq 1 ]; then
     cd neovim
     sudo make CMAKE_BUILD_TYPE=RelWithDebInfo
     sudo make install
-    cd $WORK_DIR
-    git clone --depth 1 https://github.com/wbthomason/packer.nvim $HOME/.local/share/nvim/site/pack/packer/start/packer.nvim
-    echo "[Neovim] install ex command \":PackerInstall\""
 fi
 
 # tmux
