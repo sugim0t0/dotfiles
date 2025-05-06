@@ -47,7 +47,7 @@ return {
                 icons_enabled = true,
                 theme = custom_theme,
                 component_separators = {},
-                section_separators = {},
+                -- section_separators = {},
             },
             sections = {
                 lualine_a = { 'mode' },

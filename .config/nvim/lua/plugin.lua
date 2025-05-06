@@ -16,6 +16,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local neovim_plugins = {
+    -- VSCode like
+    -- require("plugins.coc"),
+    -- Fuzzy finder
+    require("plugins.telescope"),
     -- Syntax highlight
     require("plugins.nvim-treesitter"),
     -- File explorer

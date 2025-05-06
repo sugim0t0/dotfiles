@@ -15,6 +15,7 @@ vim.opt.number        = true
 vim.opt.ruler         = true
 vim.opt.cursorline    = true
 vim.opt.cursorcolumn  = true
+vim.opt.title         = true
 vim.opt.textwidth     = 0
 vim.opt.laststatus    = 2
 vim.opt.cmdheight     = 2
